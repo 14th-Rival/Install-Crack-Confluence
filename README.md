@@ -10,7 +10,7 @@ All thanks to this developers!
 
 # First, install and start postgresql with these commands.
 
-`sudo apt-get update` \n
+`sudo apt-get update \n`
 `sudo apt-get install postgresql postgresql-contrib -y`
 `sudo update-rc.d postgresql enable`
 `sudo service postgresql start`
