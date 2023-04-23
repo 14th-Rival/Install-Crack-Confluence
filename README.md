@@ -12,7 +12,6 @@ All thanks to this developers!
 # This instructions are based on Ubuntu OS.
 
 - First, install and start postgresql with these commands.
-
 ```
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib -y
@@ -23,9 +22,9 @@ sudo service postgresql start
 - Second, make a database
 ```
 sudo -u postgres psql
-postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';`
-postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;`
-postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;`
+postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
+postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
+postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;
 \q
 logout
 ```
