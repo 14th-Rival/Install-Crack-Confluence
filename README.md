@@ -3,11 +3,11 @@
 
 All thanks to this developers!
 ---
-  [@sinanejadebrahim](https://github.com/sinanejadebrahim)
+  - [sinanejadebrahim](https://github.com/sinanejadebrahim)
   
-  [@haxqer](https://github.com/haxqer)
+  - [@haxqer](https://github.com/haxqer)
 
-  [@Praying](https://github.com/Praying)
+  - [@Praying](https://github.com/Praying)
 
 
 # This instructions are based on Ubuntu OS.
