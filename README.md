@@ -33,7 +33,7 @@ chmod a+x atlassian-confluence-8.1.3-x64.bin
 sudo ./atlassian-confluence-8.1.3-x64.bin
 ```
 
-Fourth, just proceed with installation, after the installation is complete do not start the confluence yet!
+Fourth, just proceed with the installation, after the installation is complete do not start the confluence yet!
 ```
 Installation of Confluence 8.1.3 is complete
 Start Confluence 8.1.3 now?
