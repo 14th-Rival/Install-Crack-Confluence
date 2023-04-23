@@ -2,13 +2,13 @@
 - How Install Cracked Confluence Tested on versions v7.19.7 and v8.1.3
 
 All thanks to this developers!
-- @sinanejadebrahim
-- @haxqer
-- @Praying
+@sinanejadebrahim
+@haxqer
+@Praying
 
 # This instructions are based on Ubuntu OS.
 
-- First, install and start postgresql with these commands.
+First, install and start postgresql with these commands.
 ```
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib -y
@@ -16,7 +16,7 @@ sudo update-rc.d postgresql enable
 sudo service postgresql start
 ```
 
-- Second, make a database
+Second, make a database
 ```
 sudo -u postgres psql
 postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
@@ -26,35 +26,35 @@ postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;
 logout
 ```
 
-- Third, download confluence from this link
+Third, download confluence from this link
 ```
 wget https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-8.1.3-x64.bin
 chmod a+x atlassian-confluence-8.1.3-x64.bin
 sudo ./atlassian-confluence-8.1.3-x64.bin
 ```
 
-- Fourth, just proceed with installation, after the installation is complete do not start the confluence yet!
+Fourth, just proceed with installation, after the installation is complete do not start the confluence yet!
 
-- Fifth, create a directory in the root folder
+Fifth, create a directory in the root folder
 ```
 cd /
 mkdir /var/agent
 ```
 
-- Sixth, download the atlassian-agent 
+Sixth, download the atlassian-agent 
 ```
 cd /var/agent
 wget https://github.com/haxqer/confluence/releases/download/v1.3.3/atlassian-agent.jar
 ```
 
-- Seventh, edit the environment
+Seventh, edit the environment
 ```
 cd / 
 /opt/atlassian/confluence/bin
 sudo vim setenv.sh
 ```
 
-- Eighth, place this line inside the 'setenv.sh' 
+Eighth, place this line inside the 'setenv.sh' 
   - CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
 ```
 i
@@ -64,7 +64,7 @@ esc
 wq
 ```
 
-- Ninth, start the confluence
+Ninth, start the confluence
 ```
 cd / 
 sudo /opt/atlassian/jira/bin/start-jira.sh
