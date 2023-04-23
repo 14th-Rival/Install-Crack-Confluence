@@ -55,7 +55,7 @@ sudo vim setenv.sh
 ```
 
 - Eighth, place this line inside the 'setenv.sh' 
-- CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
+  - CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
 ```
 i
 CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
