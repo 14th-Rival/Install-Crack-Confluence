@@ -91,4 +91,4 @@ java -jar /var/agent/atlassian-agent.jar -p conf -m Hello@world.com -n Hello@wor
 - Next, connect confluence to your created database. 
 - Then proceed, it should work by now.
 ---
-I hope that these will help you!
+Cheers!
