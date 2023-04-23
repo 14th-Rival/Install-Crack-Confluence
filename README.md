@@ -1,14 +1,14 @@
 # Install-Crack-Confluence
 - How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
-All thanks to this developers!
+All thanks to these developers!
 ---
   - [sinanejadebrahim](https://github.com/sinanejadebrahim)
   - [haxqer](https://github.com/haxqer)
   - [Praying](https://github.com/Praying)
 
 
-# This instructions are based on Ubuntu OS.
+# These instructions are based on Ubuntu OS.
 
 First, install and start postgresql with these commands.
 ```
@@ -91,4 +91,4 @@ java -jar /var/agent/atlassian-agent.jar -p conf -m Hello@world.com -n Hello@wor
 - Next, connect confluence to your created database. 
 - Then proceed, it should work by now.
 ---
-Hopefully this will help you!
+I hope that these will help you!
