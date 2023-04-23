@@ -23,7 +23,6 @@ postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
 postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
 postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;
 \q
-logout
 ```
 
 Third, download confluence from this link
