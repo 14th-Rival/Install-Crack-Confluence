@@ -10,11 +10,13 @@ All thanks to this developers!
 
 # First, install and start postgresql with these commands.
 
-`sudo apt-get update`
+```sudo apt-get update
 ---
-`sudo apt-get install postgresql postgresql-contrib -y`
-`sudo update-rc.d postgresql enable`
-`sudo service postgresql start`
+sudo apt-get install postgresql postgresql-contrib -y
+---
+sudo update-rc.d postgresql enable
+---
+sudo service postgresql start```
 
 # Second, make a database
 
