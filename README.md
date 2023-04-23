@@ -4,10 +4,8 @@
 All thanks to this developers!
 ---
   - [sinanejadebrahim](https://github.com/sinanejadebrahim)
-  
-  - [@haxqer](https://github.com/haxqer)
-
-  - [@Praying](https://github.com/Praying)
+  - [haxqer](https://github.com/haxqer)
+  - [Praying](https://github.com/Praying)
 
 
 # This instructions are based on Ubuntu OS.
