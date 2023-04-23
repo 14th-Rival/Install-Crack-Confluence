@@ -54,7 +54,8 @@ cd /
 sudo vim setenv.sh
 ```
 
-- Eighth, place this line inside the 'setenv.sh' CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
+- Eighth, place this line inside the 'setenv.sh' 
+- CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
 ```
 i
 CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
@@ -70,10 +71,10 @@ sudo /opt/atlassian/jira/bin/start-jira.sh
 ```
 
 Now you can go to your browser and type your ip and assigned port to confluence
-Ex. 127.0.0.1:8090
+- Ex. 127.0.0.1:8090
 
 - Tenth, crack confluence
-Once you started confluence it will ask you about the license key to start cracking confluence enter this command
+- Once you started confluence it will ask you about the license key to start cracking confluence enter this command
 
 ```
 cd /
