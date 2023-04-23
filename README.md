@@ -87,8 +87,8 @@ cd /
 java -jar /var/agent/atlassian-agent.jar -p conf -m Hello@world.com -n Hello@world.com -o your-org -s you-server-id-xxxx
 ```
 
-- This will generate a license key copy it and paste it inside the text box.
+- This will generate a license key copy it and paste it inside the license key text box.
 - Next, connect confluence to your created database. 
-- Then proceed to next steps, it should work by now.
+- Then proceed, it should work by now.
 ---
 Hopefully this will help you!
