@@ -2,6 +2,7 @@
 - How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
 All thanks to this developers!
+---
 @sinanejadebrahim
 @haxqer
 @Praying
