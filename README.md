@@ -73,7 +73,7 @@ sudo /opt/atlassian/jira/bin/start-jira.sh
 Now you can go to your browser and type your ip and assigned port to confluence
 - Ex. 127.0.0.1:8090
 
-- Tenth, crack confluence
+Tenth, crack confluence
 - Once you started confluence it will ask you about the license key to start cracking confluence enter this command
 
 ```
