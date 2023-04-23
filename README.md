@@ -55,11 +55,11 @@ wget https://github.com/haxqer/confluence/releases/download/v1.3.3/atlassian-age
 Seventh, edit the environment
 ```
 cd / 
-/opt/atlassian/confluence/bin
+cd /opt/atlassian/confluence/bin
 sudo vim setenv.sh
 ```
 
-Eighth, place this line inside the 'setenv.sh' 
+Eighth, place this line inside the 'setenv.sh'
   - CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
 ```
 i
