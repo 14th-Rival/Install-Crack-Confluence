@@ -1,5 +1,5 @@
 # Install-Crack-Confluence
-- How Install Cracked Confluence Tested on versions v7.19.7 and v8.1.3
+- How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
 All thanks to this developers!
 @sinanejadebrahim
@@ -34,6 +34,12 @@ sudo ./atlassian-confluence-8.1.3-x64.bin
 ```
 
 Fourth, just proceed with installation, after the installation is complete do not start the confluence yet!
+```
+Installation of Confluence 8.1.3 is complete
+Start Confluence 8.1.3 now?
+Yes [y, Enter], No [n]
+n
+```
 
 Fifth, create a directory in the root folder
 ```
