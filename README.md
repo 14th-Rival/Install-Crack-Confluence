@@ -10,19 +10,19 @@ All thanks to this developers!
 
 # First, install and start postgresql with these commands.
 
-`sudo apt-get update
-sudo apt-get install postgresql postgresql-contrib -y
-sudo update-rc.d postgresql enable
-sudo service postgresql start`
+`sudo apt-get update`
+`sudo apt-get install postgresql postgresql-contrib -y`
+`sudo update-rc.d postgresql enable`
+`sudo service postgresql start`
 
 # Second, make a database
 
-sudo -u postgres psql
-postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
-postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
-postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;
-\q
-logout
+`sudo -u postgres psql`
+`postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';`
+`postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;`
+`postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;`
+`\q`
+`logout`
 
 # Third, download confluence from this link
 
