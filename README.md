@@ -3,7 +3,7 @@
 
 All thanks to this developers!
 ---
-  @@sinanejadebrahim
+  -@sinanejadebrahim
 
   @haxqer
 
