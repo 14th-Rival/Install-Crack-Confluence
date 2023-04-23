@@ -1,7 +1,7 @@
 # Install-Crack-Confluence
 - How Install Cracked Confluence Tested on versions v7.19.7 and v8.1.3
 
-`All thanks to this developers!
+All thanks to this developers!
 @sinanejadebrahim
 @haxqer
 @Praying
@@ -13,7 +13,7 @@
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib -y
 sudo update-rc.d postgresql enable
-sudo service postgresql start
+sudo service postgresql start ```
 
 # Second, make a database
 
