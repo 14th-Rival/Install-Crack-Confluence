@@ -21,9 +21,9 @@ sudo service postgresql start
 Second, make a database
 ```
 sudo -u postgres psql
-postgres=# CREATE USER jiradbadmin WITH PASSWORD 'password';
-postgres=# CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
-postgres=# GRANT ALL PRIVILEGES ON DATABASE jiradb TO jiradbadmin;
+postgres=# CREATE USER confluencedbadmin WITH PASSWORD 'password';
+postgres=# CREATE DATABASE confluencedb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
+postgres=# GRANT ALL PRIVILEGES ON DATABASE confluencedb TO confluencedbadmin;
 \q
 ```
 
@@ -74,7 +74,7 @@ wq
 Ninth, start the confluence
 ```
 cd / 
-sudo /opt/atlassian/jira/bin/start-jira.sh
+sudo /opt/atlassian/jira/bin/start-confluence.sh
 ```
 
 Now you can go to your browser and type your ip and assigned port to confluence
