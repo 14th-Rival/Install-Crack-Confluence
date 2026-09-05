@@ -3,11 +3,10 @@
 ## Install-Cracked-Confluence
 How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
-All thanks to these developers!
+## All thanks to these developers!
   - [sinanejadebrahim](https://github.com/sinanejadebrahim)
   - [haxqer](https://github.com/haxqer)
   - [Praying](https://github.com/Praying)
-
 
 ## These instructions are based on Ubuntu OS.
 
