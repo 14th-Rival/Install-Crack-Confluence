@@ -35,34 +35,26 @@ sudo ./atlassian-confluence-8.1.3-x64.bin
 ```
 
 ## Step 4, just proceed with the installation, after the installation is complete do not start the confluence yet!
-```bash
+```
 Installation of Confluence 8.1.3 is complete
 Start Confluence 8.1.3 now?
 Yes [y, Enter], No [n]
 n
 ```
 
-## Step 5, create a directory in the root folder
+## Step 5, create a directory in the root folder and download the atlassian-agent
 ```bash
 cd /
 mkdir /var/agent
-```
-
-## Step 6, download the atlassian-agent 
-```bash
 cd /var/agent
 wget https://github.com/haxqer/confluence/releases/download/v1.3.3/atlassian-agent.jar
 ```
 
-## Step 7, edit the environment
+## Step 6, edit the environment and add this inside the 'setenv.sh'
 ```bash
 cd / 
 cd /opt/atlassian/confluence/bin
 sudo vim setenv.sh
-```
-
-## Step 8, place this line inside the 'setenv.sh'
-```bash
 i
 CATALINA_OPTS="-javaagent:/var/agent/atlassian-agent.jar ${CATALINA_OPTS}"
 esc
@@ -70,7 +62,7 @@ esc
 wq
 ```
 
-## Step 9, start the confluence
+## Step 7, start the confluence
 ```bash
 cd / 
 sudo /opt/atlassian/jira/bin/start-confluence.sh
@@ -79,7 +71,7 @@ sudo /opt/atlassian/jira/bin/start-confluence.sh
 Now you can go to your browser and type your ip and assigned port to confluence
 - Ex. 127.0.0.1:8090
 
-## Step 10, crack confluence
+## Step 8, crack confluence
 - Once you started confluence it will ask you about the license key, to start cracking confluence enter this command
 ```bash
 java -jar /var/agent/atlassian-agent.jar -p conf -m Hello@world.com -n Hello@world.com -o your-org -s you-server-id-xxxx
