@@ -1,4 +1,4 @@
-## Install-Crack-Confluence
+## Install-Cracked-Confluence
 - How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
 All thanks to these developers!
@@ -69,10 +69,10 @@ sudo /opt/atlassian/jira/bin/start-confluence.sh
 ```
 
 Now you can go to your browser and type your ip and assigned port to confluence
-- Ex. 127.0.0.1:8090
+- Ex. http://127.0.0.1:8090
 
 ## Step 8, crack confluence
-- Once you started confluence it will ask you about the license key, to start cracking confluence enter this command
+- Once you started confluence, it will ask you to enter a license key, to move past this enter this command
 ```bash
 java -jar /var/agent/atlassian-agent.jar -p conf -m Hello@world.com -n Hello@world.com -o your-org -s you-server-id-xxxx
 ```
