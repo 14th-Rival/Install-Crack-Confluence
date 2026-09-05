@@ -62,7 +62,7 @@ esc
 wq
 ```
 
-## Step 7, start the confluence
+## Step 7, start confluence
 ```bash
 cd / 
 sudo /opt/atlassian/jira/bin/start-confluence.sh
