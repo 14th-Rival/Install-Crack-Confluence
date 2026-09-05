@@ -1,7 +1,7 @@
 ## Disclaimer: This software is utilized solely for educational and training purposes within an isolated, local environment. It is not intended for commercial distribution, nor shall it be used in any manner that infringes upon the proprietary rights, intellectual property, or commercial interests of the software owners.
 
 ## Install-Cracked-Confluence
-- How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
+How to install cracked Confluence tested on versions 7.19.7 and 8.1.3
 
 All thanks to these developers!
   - [sinanejadebrahim](https://github.com/sinanejadebrahim)
